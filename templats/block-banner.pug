@@ -1,0 +1,20 @@
+.container.pt-4.mt-4
+	.banner
+		div(data-ride="carousel").carousel.slide#carouselExampleIndicators
+			ol.carousel-indicators
+				li(data-target="#carouselExampleIndicators" data-slide-to="0").active
+				li(data-target="#carouselExampleIndicators" data-slide-to="1")
+				li(data-target="#carouselExampleIndicators" data-slide-to="2")
+			div.carousel-inner
+				div.carousel-item.active
+					img(class="d-block w-100 img-fluid" src="../img/img1.jpg" alt="paisaje 1")
+				div.carousel-item
+					img(class="d-block w-100 img-fluid" src="../img/img2.jpg" alt="paisaje 2")
+				div.carousel-item
+					img(class="d-block w-100 img-fluid" src="../img/car.jpeg" alt="paisaje 3")
+			a(class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev")
+				span(class="carousel-control-prev-icon" aria-hidden="true")
+				span(class="sr-only") Anterior
+			a(class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next")
+				span(class="carousel-control-next-icon" aria-hidden="true")
+				span(class="sr-only") Siguiente

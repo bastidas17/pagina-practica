@@ -1,0 +1,15 @@
+.container.producto#pills-producto
+	h3.producto__title.display-4.text-center.py-4 PRODUCTOS
+	.row
+		-var i = 16
+		-while(i--)
+			.section.col-xm-12.col-sm-6.col-md-3.pt-2.text-center.pb-3
+				img(src="../img/pexels-photo (1).jpg", alt="").img-fluid.producto__img
+				p.producto__descrip Computador Vit M2420
+				button(type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm") Leer Mas
+				div(class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true")
+					div(class="modal-dialog modal-lg")
+						div(class="modal-content")
+							p  Lorem ipsum dolor sit amet.
+
+

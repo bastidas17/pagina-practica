@@ -1,0 +1,30 @@
+.container-fluid.d-flex.justify-content-sm-between.header.pt-3.row
+	.logo.text-center.col-xs-12.col-m-4.ml-4
+		h2.h2 Bastidas
+			span Jonathan
+	.contacto.col-xs-12.col-m-8.pt-2
+		.contacto__dir
+			p.direccion Villa Nueva calle 2. Barinitas-Edo-Barinas
+			p.telefonos Telefonos: 
+				span.text-danger 0416-0919466 / 0414-7068539
+			p.email ingenierobastidas1994@gmail.com
+		.contacto__icon
+			a(href="#" class="fa fa-envelope-open").icon
+.sticky-top
+	nav.navbar.navbar-expand-md.navbar-dark
+		//- a(href="#").navbar-brand Navbar
+		button(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation").navbar-toggler
+			span.navbar-toggler-icon
+		div.collapse.navbar-collapse#navbarSupportedContent.text-center
+			ul.navbar-nav.mr-auto.ml-auto
+				li.nav-item.active
+					a(class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-profile" aria-selected="false") Inicio 
+						span.sr-only (current)
+				li.nav-item
+					a(class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-empresa" role="tab" aria-controls="pills-profile" aria-selected="false") Empresa
+				li.nav-item
+					a(class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-producto" role="tab" aria-controls="pills-profile" aria-selected="false") Productos
+				li.nav-item
+					a(class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-stock" role="tab" aria-controls="pills-profile" aria-selected="false").nav-link Productos en stock permanentes
+				li.nav-item
+					a(class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-profile" aria-selected="false") Contacto

@@ -1,0 +1,33 @@
+doctype html
+html
+	head
+		title Pagina de practica
+		meta(charset="UTF-8")
+		//- meta  viewport
+		meta(name='viewport', content="width=device-width, initial-scale=1.0")
+		//- estilos css
+		link(rel="stylesheet", href="css/estilos.css")
+		//font
+		link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
+		//- iconos
+		link(href="https://file.myfontastic.com/RuK4kti5dqRaWrQvDC7JfW/icons.css" rel="stylesheet")
+		//- css bootstrap
+		link(rel="stylesheet" href="css/bootstrap.css")
+	body
+		block header
+			include block-header
+		block banner
+			include block-banner
+		block main
+		.tab-content#pills-tabContent
+			include block-main
+			include block-empresa
+			include block-productos
+			include block-stock
+			include block-contact
+		block footer
+			include block-footer
+		script(src="js/jquery-3.1.1.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous")
+		script(src="js/bootstrap.min.js")
+		
